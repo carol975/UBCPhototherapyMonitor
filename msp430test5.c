@@ -1,5 +1,4 @@
 #include "msp430g2553.h"
-#include "stdio.h"
 
 // Global variables
 int adc[10] = {0}; //Sets up an array of 10 integers and zero's the values
@@ -19,7 +18,6 @@ void main()
 		  adc_Sam10();		// Function call for adc_samp
 		  // Add all the sampled data and divide by 10 to find average
 		  avg_adc = ((adc[0]+adc[1]+adc[2]+adc[3]+adc[4]+adc[5]+adc[6]+adc[7]+adc[8]+adc[9]) / 10);
-		  //printf("avg_adc %d\n",avg_adc);
 	  }
 }
  
