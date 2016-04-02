@@ -2,6 +2,8 @@
 
 /*
  * Software for controlling the Phototherapy Monitor
+ * Date: April 2nd, 2016
+ * Author: UBC BEST Phototherapy Team
  */
  
 double voltage = 0;
